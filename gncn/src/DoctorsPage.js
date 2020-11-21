@@ -2,7 +2,7 @@ import React from "react";
 import user1 from "./user1.jpg";
 import user2 from "./images/user6.jpg";
 import user3 from "./images/user8.jpg";
-
+import Navbar from "./Navbar";
 const data = [
   {
     img: user1,
@@ -48,6 +48,7 @@ class index extends React.Component {
   render() {
     return (
       <div>
+        {/* <Navbar /> */}
         <h1 style={{ textAlign: "center" }}>Our Doctors </h1>
         <hr style={{ width: "60px", backgroundColor: "blue" }} />
         <div className="cards">
